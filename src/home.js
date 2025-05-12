@@ -7,7 +7,8 @@ function createHome() {
     const image = document.createElement('img');
     image.src = require('./images/steak.jpg');
     image.alt = "Delicious steak";
-    image.wdith = 500;
+    image.wdith = 400;
+    image.height = 300;
 
     const description = document.createElement('p');
     description.textContent = "We server meals that bring out your wild side! Come on in and grab a bite!";

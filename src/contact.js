@@ -2,7 +2,7 @@ function createContact() {
     const contact = document.createElement('div');
 
     const heading = document.createElement('h1');
-    heading.textContent = "contact Us";
+    heading.textContent = "Contact Us";
 
     const phone = document.createElement('p');
     phone.textContent = "📞 (555) 123-4567";
